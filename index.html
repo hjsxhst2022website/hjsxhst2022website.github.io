@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>应用商店</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  nav {
-    background-color: #444;
-    padding: 10px 0;
-    text-align: center;
-  }
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
-  nav a:hover {
-    background-color: #666;
-  }
-  section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-  }
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoStore 应用商店</title>
+    <style>
+        /* 基本样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* 特定样式 */
+        .app {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .app img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-  <h1>hjsxhst2022的应用商店</h1>
+    <h1>InnoStore 应用商店</h1>
 </header>
 
 <nav>
-  <a href="https://hjsxhst2022website.github.io/">主页</a>
-  <a href="https://hjsxhst2022website.github.io/downloadsa">软件下载</a>
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">分类</a></li>
+        <li><a href="#">个人中心</a></li>
+    </ul>
 </nav>
+
+<section>
+    <div class="app">
+        <img src="app1.png" alt="应用1">
+        <h2>应用名称1</h2>
+        <p>应用描述1</p>
+        <button>安装</button>
+    </div>
+    <div class="app">
+        <img src="app2.png" alt="应用2">
+        <h2>应用名称2</h2>
+        <p>应用描述2</p>
+        <button>安装</button>
+    </div>
+    <!-- 更多应用 -->
+</section>
+
 <footer>
-  <p>&copy; All rights reserved.</p>
+    <p>&copy; 2024 InnoStore 应用商店</p>
 </footer>
 
 </body>

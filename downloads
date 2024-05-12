@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>应用商店</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  nav a:hover {
+    background-color: #666;
+  }
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>hjsxhst2022的应用商店</h1>
+</header>
+
+<nav>
+  <a href="https://hjsxhst2022website.github.io/">主页</a>
+</nav>
+<nav>
+  <a href="https://hjsxhst2022website.github.io/downloads">软件下载</a>
+</nav>
+<section id="xiaoxiongmao">
+  <h2>小熊猫c++</h2>
+  <p>小熊猫C++无需复杂的安装和配置，打开即可直接编辑程序文件；无需创建项目，点击工具栏上按钮即可编译、运行和调试程序。</p>
+</section>
+<footer>
+  <p>&copy; All rights reserved.</p>
+</footer>
+
+</body>
+</html>
